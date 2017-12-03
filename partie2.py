@@ -5,7 +5,7 @@ F_xml = open('donnees.txt',encoding = 'utf-8')
 
 ligne = F_xml.readline()
 
-while i <= 500000 : # indique la fin du fichier
+while i < 500001 : # indique la fin du fichier
     
     F_txt = open('page4/'+str(i)+'.txt', 'w',encoding = 'utf-8')
     
